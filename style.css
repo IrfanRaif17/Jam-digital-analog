@@ -1,0 +1,84 @@
+h1,h2,p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+.jam_digital{
+    overflow: hidden;
+    width: 330px;
+    margin: 20px auto;
+    border: 5px solid #778899;
+}
+.kotak{
+    float: left;
+    width: 110px;
+    height: 100px;
+    background-color: rgb(173, 216, 230);
+}
+.jam_digital p {
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+    text-align: center;
+    margin-top: 30px;
+}
+h1,h2,p,a{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+.jam_analog {
+    background: rgb(173, 216, 230);
+    position: relative;
+    width: 240px;
+    height: 240px;
+    border: 16px solid #778899;
+    border-radius: 50%;
+    padding: 20px;
+    margin:20px auto;
+}
+
+.xxx {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.jarum {
+    position: absolute;
+    width: 50%;
+    background: #232323;
+    top: 50%;
+    transform: rotate(90deg);
+    transform-origin: 100%;
+    transition: all 0.05s cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.lingkaran_tengah {
+    width: 24px;
+    height: 24px;
+    background: #232323;
+    border: 4px solid #52b6f0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -14px;
+    margin-top: -14px;
+    border-radius: 50%;
+}
+
+.jarum_detik {
+    height: 2px;
+    border-radius: 1px;
+    background: #ff0;
+}
+
+.jarum_menit {
+    height: 4px;
+    border-radius: 4px;
+}
+
+.jarum_jam {
+    height: 8px;
+    border-radius: 4px;
+    width: 35%;
+    left: 15%;
+}
